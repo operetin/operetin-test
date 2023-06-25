@@ -1,0 +1,16 @@
+import random
+
+def function1():
+    print("This is function 1")
+
+def function2():
+    print("This is function 2")
+
+# Generate a random integer either 0 or 1
+rand_int = random.randint(0, 1)
+
+# Call function1 if rand_int is 0, otherwise call function2
+if rand_int == 0:
+    function1()
+else:
+    function2()
